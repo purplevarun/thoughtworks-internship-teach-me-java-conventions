@@ -1,7 +1,7 @@
-package powerpackage;
+// package powerpackage;
 
-public class powerfinder {
-    public static int OF(int base, int exponent) {
+public class PowerFinder {
+    public static int of(int base, int exponent) {
         int originalBase = base;
         while (exponent-- > 0){
             base*=originalBase;
